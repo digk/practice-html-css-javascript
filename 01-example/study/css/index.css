@@ -26,6 +26,26 @@ body {
     background-color: #f3f5f7;
 }
 
+li a h3 {
+    margin: 20px;
+    line-height: 20px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	color: #050505;
+}
+
+
+li a p {
+    margin-left: 20px;
+	font-size: 12px;
+    color: #999999;
+}
+
+li a p span {
+    color: #ff7c2d;
+}
+
 /* 版心 */
 .wrapper {
     width: 1200px;
@@ -237,10 +257,7 @@ body {
     margin: 22px auto;
     line-height: 16px;
     width: 120px;
-    font-family: MicrosoftYaHei;
 	font-size: 16px;
-	font-weight: normal;
-	letter-spacing: 0px;
 	color: #050505;
     border-left: 1px solid #bfbfbf;
 }
@@ -252,13 +269,11 @@ body {
 .recommend .change {
     float: right;
     margin-right: 26px;
-    font-family: MicrosoftYaHei;
 	font-size: 14px;
-	font-weight: normal;
-	letter-spacing: 0px;
 	color: #00a4ff;
 }
 
+/* 精品推荐课程---------------------------------------------------- */
 .box {
     margin-top: 30px;
     /* background-color: pink; */
@@ -284,12 +299,15 @@ body {
     font-family: MicrosoftYaHei;
 	font-size: 12px;
 	letter-spacing: 0px;
+    line-height: 30px;
 	color: #a5a5a5;
     text-align: end;
 }
 
-.box .courses li {
+.courses li {
     float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
     width: 228px;
 	height: 270px;
     overflow: hidden;
@@ -298,28 +316,195 @@ body {
 		rgba(118, 118, 118, 0.5);
 }
 
-.box .courses li a h3 {
-    margin: 20px 20px 15px 24px;
-    line-height: 20px;
-    font-family: MicrosoftYaHei;
-	font-size: 14px;
-	font-weight: normal;
-	font-stretch: normal;
-	line-height: 20px;
-	letter-spacing: 0px;
-	color: #050505;
+.courses li:nth-child(5n) {
+    margin-right: 0;
 }
 
-.box .courses li a p {
-    margin-left: 24px;
-    font-family: MicrosoftYaHei;
+/* .box .courses li a h3 {
+    margin: 20px;
+    line-height: 20px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	color: #050505;
+} */
+
+/* .box .courses li a p {
+    margin-left: 20px;
 	font-size: 12px;
-	font-weight: normal;
-	font-stretch: normal;
-	letter-spacing: 0px;
     color: #999999;
 }
 
 .box .courses li a p span {
     color: #ff7c2d;
+} */
+
+/* 编程入门 -------------------------------------------------------------------------*/
+.start {
+    margin-top: 15px;
+}
+
+.start .title2 {
+    height: 40px;
+}
+
+.start .title2 h2 {
+    float: left;
+    margin-right: 350px;
+	font-size: 20px;
+    font-weight: 400;
+	color: #494949;
+}
+
+.start .title2 ul li a {
+    float: left;
+    margin-right: 70px;
+	font-size: 16px;
+    line-height: 30px;
+	color: #868686;
+}
+
+.start .title2 ul li a:hover {
+    color: #00a4ff;
+}
+
+.start .title2 .seeall {
+    float: right;
+    font-size: 12px;
+    line-height: 30px;
+	color: #a5a5a5;
+}
+
+.start .title2 .seeall:hover {
+    color: #00a4ff;
+}
+
+.start .neirong .leftimg {
+    float: left;
+}
+
+.start .neirong .topimg {
+    float: right;   
+}
+
+.start .neirong .bottom {
+    float: right;
+    margin-top: 17px;
+    width: 972px;
+    height: 270px;
+}
+
+.start .neirong .bottom li {
+    float: left;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+    margin-left: 15px;
+}
+
+/* 多处有类似的样式，在开始进行统一的设置 */
+/* .start .neirong .bottom li a h3 {
+    margin: 20px;
+    width: 184px;
+	height: 32px;
+	font-size: 14px;
+    font-weight: 400;
+	line-height: 20px;
+	color: #050505;
+} */
+
+/* .start .neirong .bottom li a p {
+    margin-left: 20px;
+	font-size: 12px;
+    color: #999999;
+}
+
+.start .neirong .bottom li a p span {
+    color: #ff7c2d;
+} */
+
+/* 数据分析师，借用编程入门处的CSS代码即可——布局相同，减少重复 */
+
+.changeimg {
+    filter: hue-rotate(150deg);
+}
+
+/* 机器学习工程师，可借用编程入门和精品课程推荐区域的CSS代码 */
+
+/* 前端开发工程师，可借用编程入门和精品课程推荐区域的CSS代码 */
+
+/* 底部区域------------------------------- */
+.footer {
+    margin-top: 20px;
+    height: 417px;
+    background-color: #ffffff;
+}
+
+.footer .left {
+    float: left;
+}
+
+.footer .left img {
+    margin-top: 30px;
+}
+
+.footer .left p {
+    margin-top: 20px;
+	font-size: 12px;
+	line-height: 18px;
+	color: #666666;
+}
+
+.footer .left button {
+    margin-top: 15px;
+    width: 120px;
+	height: 36px;
+	border: solid 1px #00a4ff;
+	font-size: 16px;
+	line-height: 18px;
+	color: #00a4ff;
+    background-color: #fff;
+}
+
+.footer .right dl {
+    float: right;
+    margin: 30px 30px 0 120px;
+}
+
+.footer .right dl dt {
+    margin-bottom: 10px;
+}
+
+.footer .right dl dt h3{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+	color: #333333;
+}
+
+.footer .right dl dd a {
+	font-size: 12px;
+	line-height: 21px;
+	color: #333333;
+}
+
+.column {
+    position: absolute;
+    top: 910px;
+    left: 150px;
+    padding: 20px;
+    width: 183px;
+    height: 425px;
+    background-color: #fff;
+}
+
+.column li a {
+	font-size: 14px;
+	line-height: 36px;
+	letter-spacing: 1px;
+	color: #000000;
+}
+
+.column li a:hover {
+    color: #00a4ff;
 }

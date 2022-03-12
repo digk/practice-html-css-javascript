@@ -488,9 +488,14 @@ li a p span {
 	color: #333333;
 }
 
+
+/* 浮动标题定位栏------------------------------------------------ */
 .column {
-    position: absolute;
-    top: 910px;
+    position: sticky;
+    /* top: 500px; */
+    float: left;
+    margin-top: 8px;
+    top: 20px;
     left: 150px;
     padding: 20px;
     width: 183px;

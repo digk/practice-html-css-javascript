@@ -1,0 +1,337 @@
+/* 版心的统一设置 */
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* 顶部快捷导航栏 */
+.shotcut {
+	height: 52px;
+	background-color: #333;
+}
+
+.shotcut ul {
+    float: right;
+}
+
+.shotcut li {
+    float: left;
+    line-height: 52px;
+}
+
+.shotcut a {
+    padding: 0 16px;
+    font-size: 14px;
+    color: #dcdcdc;
+    border-right: 1px solid #666;
+}
+
+.shotcut li:last-child a {
+    padding-right: 3px;
+    border: 0;
+}
+
+.shotcut span {
+    display: inline-block;
+    margin-right: 8px;
+    width: 11px;
+    height: 16px;
+    vertical-align: middle;
+    background-image: url(../images/sprites.png);
+    background-position: -160px -70px;
+}
+
+/* 头部 */
+.header {
+    margin: 30px auto;
+    height: 70px;
+}
+
+/* 网站logo图标 */
+.logo {
+    margin-left: 25px;
+    margin-right: 40px;
+}
+
+.logo h1 {
+    width: 207px;
+    height: 70px;
+}
+
+.logo h1 a {
+    display: block;
+    width: 207px;
+    height: 70px;
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    font-size: 0;
+    /* background-color: green; */
+}
+
+/* 网页导航栏 */
+.nav {
+    height: 70px;
+    /* background-color: pink; */
+}
+
+.nav li {
+    float: left;
+    line-height: 70px;
+}
+
+.nav a {
+    margin-right: 48px;
+    padding-bottom: 7px;
+}
+
+.nav a:hover {
+    color: #27ba9b;
+    border-bottom: 1px solid #27ba9b;
+}
+
+/* 搜索栏 */
+.search {
+    margin-left: 34px;
+    margin-top: 24px;
+    width: 172px;
+    height: 30px;
+    /* background-color: pink; */
+    border-bottom: 2px solid #e7e7e7;
+}
+
+.search span {
+    display: block;
+    float: left;
+    margin-left: 2px;
+    margin-right: 11px;
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/sprites.png);
+    background-position: -80px -70px;
+    vertical-align: middle;
+}
+
+.search input {
+    float: left;
+    width: 141px;
+    /* height: 28px; */
+    line-height: 24px;
+}
+
+.search input::placeholder {
+    font-size: 14px;
+    color: #e7e7e7;
+}
+
+/* 购物车 */
+.shoppingcar {
+    margin-top: 28px;
+    margin-right: 12px;
+    position: relative;
+    width: 23px;
+    height: 23px;
+    background-image: url(../images/sprites.png);
+    background-position: -120px -70px;
+}
+
+.shoppingcar span {
+    display: block;
+    position: absolute;
+    top: -5px;
+    right: -12px;
+    width: 20px;
+    height: 15px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
+    background-color: #e26237;
+    border-radius: 8px;
+}
+
+/* 底部版权footer */
+.footer .above {
+    height: 300px;
+    padding-top: 70px;
+    text-align: center;
+}
+
+
+.footer .kehufuwu {
+    margin-left: 58px;
+    width: 192px;
+    height: 143px;
+
+}
+
+.footer .guanzhuwomen {
+    margin-left: 118px;
+    width: 192px;
+    height: 143px;
+}
+
+.footer .above h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #999;
+}
+
+.footer .above li {
+    float: left;
+    margin: 26px 0 0 0;
+    padding-top: 19px;
+    width: 93px;
+    height: 92px;
+    border: 1px solid #eee;
+}
+
+.footer .above li:last-child {
+    float: right;
+}
+
+.footer .above span {
+    display: block;
+    font-size: 14px;
+    color: #999;
+    line-height: 36px;
+}
+
+.footer .above span::before {
+    display: block;
+    content: '';
+    margin: 0 auto;
+    width: 36px;
+    height: 29px;
+    background-image: url(../images/sprites.png);
+    /* background-position: -246px -69px; */
+}
+
+.footer .above .kehufuwu li:first-child span::before {
+    background-position: -246px -69px;
+}
+
+.footer .above .kehufuwu li:last-child span::before {
+    background-position: -346px -69px;
+}
+
+.footer .above .guanzhuwomen li:first-child span::before {
+    background-position: -204px -14px;
+}
+
+.footer .above .guanzhuwomen li:last-child span::before {
+    background-position: -350px -14px;
+}
+
+.footer .xiazaiapp {
+    margin-left: 93px;
+    width: 241px;
+    height: 156px;
+}
+
+.footer .xiazaiapp img {
+    float: left;
+    margin-top: 16px;
+    margin-right: 22px;
+    width: 116px;
+    height: 116px;
+    border: 2px solid #999;
+}
+
+.footer .above .xiazaiapp span {
+    line-height: 22px;
+    text-align: left;
+}
+
+.footer .above .xiazaiapp a {
+    display: block;
+    float: left;
+    margin-top: 14px;
+    width: 103px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    background-color: #27ba9b;
+}
+
+.footer .fuwurexian {
+    margin-left: 33px;
+    width: 310px;
+    height: 189px;
+    border-left: 2px solid #f2f2f2;
+}
+
+.footer .fuwurexian h4 {
+    margin-top: 55px;
+    font-size: 22px;
+}
+
+.footer .fuwurexian p {
+    font-size: 15px;
+    color: #999;
+}
+
+.footer .down {
+    height: 340px;
+    background-color: #333;
+}
+
+.footer .down .wrapper {
+    width: 1393px;
+}
+
+.footer .top {
+    padding: 58px 0;
+    height: 174px;
+    border-bottom: 2px solid #434343;
+}
+
+.footer .down li {
+    float: left;
+    margin: 0px 137px;
+    font-size: 28px;
+    color: #fff;
+}
+
+.footer .down li::before {
+    content: '';
+    display: inline-block;
+    margin-right: 20px;
+    width: 58px;
+    height: 58px;
+    background-image: url(../images/sprites.png);
+    background-position: 0px 0px;
+    vertical-align: middle;
+}
+
+.footer .down li:nth-child(2)::before {
+    background-position: -130px 0;
+}
+
+.footer .down li:nth-child(3)::before {
+    background-position: -64px 0;
+}
+
+/* 横线hr标签在此处似乎不好用？ */
+/* .footer hr {
+    height: 3px;
+    color: #434343;
+    border: 1px solid #434343;
+} */
+
+.footer .bottom,
+.footer .bottom a {
+    margin: auto 10px;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+}
+
+.footer .bottom {
+    padding-top: 40px;
+}
+
+.footer .bottom p {
+    margin-bottom: 20px;
+}

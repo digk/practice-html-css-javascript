@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 嵌套的CSS样式设置，以精准定位的CSS设置为准，
+           如无精准定位的样式以通用样式为准。
+
+           设置的时候保证唯一性即可。不必写全路径
+        */
+        /* .b {
+            width: 200px;
+            height: 200px;
+            background-color: #fff;
+        } */
+
+        .a {
+            width: 500px;
+            height: 800px;
+            background-color: aqua;
+        }
+/* 
+        .a .b {
+            width: 300px;
+            height: 200px;
+            background-color: yellow;
+        } */
+
+        .c {
+            width: 800px;
+            height: 500px;
+            background-color: blue;
+        }
+
+        /* .c .b {
+            width: 500px;
+            height: 400px;
+            background-color: pink;
+        } */
+        
+        .b {
+            width: 200px;
+            height: 200px;
+            background-color: #fff;
+        }
+
+        .a li {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+        /* .a a {
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: blueviolet;
+        } */
+
+        /* li a {
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: blueviolet;
+        } */
+
+        .b a {
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">a-box
+        <a href="#">alink11</a>
+        <div class="b">b-box
+            <ul>
+                <li><a href="#">alink22</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="c">c-box
+        <div class="b">b-box
+            <a href="#">
+                <ul>
+                    <li>liii<a href="#">linkkk33</a></li>
+                </ul>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,253 @@
+/* 为个人页面的样式表 */
+/* 右侧样式通栏 */
+.r_wrapper {
+    float: right;
+    width: 996px;
+    margin-top: 20px;
+    padding-left: 12px;
+    padding-right: 10px;
+    background-color: #fff;
+}
+
+/* 个人信息页面 */
+.user {
+    /* padding-top: 20px; */
+    padding-bottom: 30px;
+    background-color: #f6f6f6;
+}
+
+/* 左侧个人导航栏 */
+.user .useraside {
+    /* float: left; */
+    padding-top: 12px;
+    width: 224px;
+    /* height: 1120px; */
+    background-color: #fff;
+}
+
+.user .useraside dl {
+    padding-left: 50px;
+    padding-bottom: 13px;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.user .useraside dl dt {
+    /* margin-top: 24px; */
+    line-height: 56px;
+    color: #333;
+}
+
+.user .useraside dl dd a {
+    /* height: 36px; */
+    line-height: 36px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* 个人信息头版 */
+.user .avator {
+    /* width: 996px; */
+    height: 132px;
+    color: #fff;
+    /* z-index: 1; */
+    /* background-color: pink; */
+    background: linear-gradient(115deg, #25b59a ,#26b99b 100%);
+}
+
+.user .avator img {
+    float: left;
+    margin: 23px 25px 23px 47px;
+    /* margin-left: 59px; */
+    /* margin-top: 23px; */
+    width: 86px;
+    height: 86px;
+    /* line-height: 132px; */
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.user .avator span {
+    float: left;
+    font-size: 18px;
+    line-height: 132px;
+    /* color: #fff; */
+}
+
+.user .avator ul {
+    float: right;
+}
+
+.user .avator li {
+    float: left;
+    /* margin: 0; */
+    /* padding: 0; */
+    margin: 34px 53px;
+    width: 64px;
+    height: 64px;
+}
+
+.user .avator li span {
+    color: #fff;
+    font-size: 16px;
+    line-height: 14px;
+}
+
+.user .avator li span::before {
+    display: block;
+    content: '';
+    margin: 0 16px 15px 16px;
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    background-image: url(../images/sprites.png);
+    background-position: 0 0;
+}
+
+/* 我的订单 */
+.user .order {
+    /* margin-top: 20px; */
+    /* padding-top: 3px; */
+    /* padding-left: 12px; */
+    /* padding-bottom: 20px; */
+    /* width: 996px; */
+    /* background-color: #fff; */
+}
+
+.user .order .hd {
+    height: 57px;
+    line-height: 57px;
+}
+
+.user .order .hd h2 {
+    float: left;
+    /* margin-left: 12px; */
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.user .order .hd a {
+    float: right;
+    color: #999;
+}
+
+.user .order .hd a::after {
+    display: inline-block;
+    margin-left: 6px;
+    margin-right: 3px;
+    content: '';
+    width: 7px;
+    height: 13px;
+    background-image: url(../images/sprites.png);
+    background-position: 0px -110px ;
+    vertical-align: middle;
+}
+
+table {
+    /* margin-left: 12px; */
+    margin-bottom: 20px;
+}
+
+table, tr, td {
+    border-collapse: collapse;
+    border: 1px solid #e8e8e8;
+    font-size: 14px;
+}
+
+.user .order table .goods_infos {
+    border-right: 0;
+}
+
+.user .order table .goods_infos .media img {
+    margin-top: 14px;
+    margin-left: 13px;
+    margin-bottom: 14px;
+    width: 106px;
+}
+
+.user .order table .goods_infos .info {
+    width: 262px;
+    padding-top: 48px;
+    margin-left: 10px;
+
+}
+
+.user .order table .goods_infos span {
+    color: #999;
+}
+
+.user .order table .goods_status {
+    width: 200px;
+    text-align: center;
+    color: #e05e30;
+    border-left: 0;
+}
+
+.user .order table .goods_status p a {
+    color: #999;
+}
+
+.user .order table .goods_price {
+    width: 196px;
+    text-align: center;
+}
+
+.user .order table .goods_price span {
+    color: #9a2e1f;
+}
+
+.user .order table .goods_operate {
+    width: 180px;
+    text-align: center;
+}
+
+.user .order table .goods_operate span {
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+	height: 31px;
+    color: #fff;
+    line-height: 31px;
+	background-color: #27ba9b;
+	border-radius: 2px;
+}
+
+/* 我的收藏 */
+.user .collect h2 {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 58px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.user .collect li {
+    float: left;
+    margin: 22px 2px 22px 0px;
+    padding: 8px 25px;
+    width: 242px;
+    height: 304px;
+    /* background-color: pink; */
+}
+
+.user .collect li:nth-child(4n) {
+    margin-right: 0px;
+}
+
+.user .collect li img {
+    padding: 10px;
+    width: 184px;
+    margin-bottom: 10px;
+}
+
+.user .collect li p {
+    line-height: 20px;
+}
+
+.user .collect li p b {
+    font-size: 17px;
+	color: #9a2e1f;
+    line-height: 40px;
+}
+
+.user .collect li p b span {
+    font-size: 22px;
+}
